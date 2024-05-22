@@ -1,0 +1,4 @@
+"use client"
+import e from"react";function n({onHide:o,onShow:a,items:r}){function u(){a()}function i(){o()}return e.createElement("nav",{className:"absolute h-[90%] left-10 top-10 group  overflow-hidden w-[45px] hover:w-[200px] transition-all group duration-[1000] ease-in-out rounded-md",onMouseEnter:u,onMouseLeave:i},e.createElement("ul",{className:`w-[200px] h-full text-gray-300 bg-opacity-gradient
+    py-4`},r.map(t=>e.createElement("li",{key:t.name,className:"h-18"},e.createElement(s,{item:t})))))}function s({item:o}){return e.createElement("a",{href:o.path,className:"flex items-center justify-start gap-x-4 text-gray-400 hover:text-white px-3 py-2 text-2xl font-semibold"},e.createElement("span",{className:"block"},o.icon)," ",o.name)}var f=n;export{f as default};
+//# sourceMappingURL=index.js.map
